@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ViralVyapar</title>
+    <link rel="stylesheet" href="chat.css">
+    
+</head>
+<body>
+    <script src="chat.js"></script>
+    <header>
+        <h1>ViralVyapar</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <label for="query">Enter your query:</label>
+        <input type="text" id="query" name="query" placeholder="Search..." required>
+        <br>
+        <button onclick="getChatbotResponse()">Generate</button>
+    </main>
+    <div class="output-section" id="output">
+        <!-- JavaScript will populate this section -->
+    </div>
+    <footer>
+        <p>&copy; 2023 Viral Vyapar</p>
+    </footer>
+</body>
+</html>
